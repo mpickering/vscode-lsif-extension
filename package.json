@@ -20,13 +20,16 @@
 		"vscode": "^1.29.0"
 	},
 	"activationEvents": [
-		"onLanguage:javascript",
-		"onLanguage:haskell",
-		"onLanguage:typescript"
+		"onLanguage:haskell"
 	],
 	"enableProposedApi": true,
 	"main": "./client/out/extension",
 	"contributes": {
+    "languages": [{
+      "id": "haskell",
+      "aliases": ["Haskell", "haskell"],
+      "extensions": [".hs"]
+    }],
 		"configuration": {
 			"type": "object",
 			"title": "Index Format configuration",
