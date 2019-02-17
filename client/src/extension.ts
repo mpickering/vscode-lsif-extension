@@ -42,6 +42,7 @@ export function activate(context: ExtensionContext) {
 		// Register the server for plain text documents
 		documentSelector: [
 			{ scheme: 'file', language: 'typescript', exclusive: true  }  as DocumentFilter,
+			{ scheme: 'file', language: 'haskell', exclusive: true  }  as DocumentFilter,
 			{ scheme: 'file', language: 'javascript', exclusive: true  }  as DocumentFilter,
 		],
 		synchronize: {

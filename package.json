@@ -21,6 +21,7 @@
 	},
 	"activationEvents": [
 		"onLanguage:javascript",
+		"onLanguage:haskell",
 		"onLanguage:typescript"
 	],
 	"enableProposedApi": true,
